@@ -31,7 +31,8 @@ const {createSubSection , deleteSubSection , updateSubSection} = require('../con
 const {updateCourseProgress} = require('../controllers/CourseProgress')
 
 // Importing Middlewares
-const { auth, isInstructor, isStudent, isAdmin } = require("../middlewares/auth")
+const {auth , isAdmin , isInstructor , isStudent} = 
+require('../middlewares/Auth')
 
 router.post('/createCategory' , auth , isAdmin , createCategory)
 router.get('/showAllCategories' , showAllCategories)
