@@ -51,7 +51,7 @@ const otpTemplate = (otp) => {
     </head>
     <body>
         <div class="container">
-            <h1 class="heading">Uniemtech Digital Academy</h1>
+            <h1 class="heading">SkillJet</h1>
             <div class="message">OTP Verification Email</div>
             <div class="body">
                 <p>Dear User , </p>
@@ -62,7 +62,7 @@ const otpTemplate = (otp) => {
                 </p>
     
             </div>
-            <div class="support">If you have any questions or need assistance , please feel free to reach out to us at <a href="mailto:uniemtechdigitalacademy@gmail.com"> uniemtechdigitalacademy@gmail.com</a> We are here to help</div>
+            <div class="support">If you have any questions or need assistance , please feel free to reach out to us at <a href="mailto:SkillJet@gmail.com"> SkillJet@gmail.com</a> We are here to help</div>
         </div>
     </body>
     </html>

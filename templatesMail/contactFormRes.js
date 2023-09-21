@@ -79,7 +79,7 @@ exports.contactUsEmail = (
     
     <body>
         <div class="container">
-        <h1 class="heading">Uniemtech Digital Academy</h1>
+        <h1 class="heading">SkillJet</h1>
             <div class="message">Contact Form Confirmation</div>
             <div class="body">
                 <p>Dear ${name},</p>
@@ -92,7 +92,7 @@ exports.contactUsEmail = (
                 <p>We appreciate your interest and will get back to you shortly. </p>
             </div>
             <div class="support">If you have any further questions or need immediate assistance,    please feel free to reach
-                out to us at <a href="mailto:info@Uniemtech.com">info@Uniemtech.com</a>. We are here to help!</div>
+                out to us at <a href="mailto:info@SkillJet.com">info@SkillJet.com</a>. We are here to help!</div>
         </div>
     </body>
     
