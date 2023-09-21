@@ -23,12 +23,7 @@ const {
   } = require("../controllers/Section")
   
   // Sub-Sections Controllers Import
-  const {
-    createSubSection,
-    updateSubSection,
-    deleteSubSection,
-  } = require("../controllers/Subsection")
-
+const {createSubSection , deleteSubSection , updateSubSection} = require('../controllers/SubSection')
   // rating and reviews controllers import
   const {createRating , getAllRating} = require('../controllers/RatingAndReview')
 
